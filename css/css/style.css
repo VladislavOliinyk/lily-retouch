@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+header .logo, footer .footer-logo {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.social-icons a {
+    margin: 0 0.5em;
+}
+
+main {
+    padding: 2em;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.hero h3 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.slider {
+    width: 80%;
+    margin: 0 auto;
+    height: 300px;
+    background-color: #ccc;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category {
+    flex-basis: 22%;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+}
+
+footer nav ul {
+    flex-wrap: wrap;
+}
+
+footer nav ul li {
+    margin: 0.5em 1em;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact form label {
+    margin-bottom: 0.5em;
+}
+
+.contact form input, .contact form textarea {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact form button {
+    padding: 0.5em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.contact form button:hover {
+    background-color: #555;
+}
